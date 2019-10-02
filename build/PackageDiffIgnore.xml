@@ -470,8 +470,11 @@
 				<Member 
 					fullName="System.Single Uno.UI.UnoViewGroup::TransformedTouchY()"
 					reason="Removed internal stuff."/>
-				<Member 
+				<Member
 					fullName="System.Boolean Windows.UI.Xaml.UIElement::IsPointerCaptured()"
+					reason="Not part of the UWP API."/>
+				<Member
+					fullName="System.String Windows.UI.Xaml.RoutedEvent::Name()"
 					reason="Not part of the UWP API."/>
 			</Properties>
 		</IgnoreSet>
